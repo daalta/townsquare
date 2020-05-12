@@ -1,3 +1,5 @@
+This is a fork of https://github.com/bra1n/townsquare . Maybe there's something I can adjust, perhaps a german translation.
+
 # Blood on the Clocktower Town Square
 
 ![image](https://user-images.githubusercontent.com/325521/80531231-8f473980-899a-11ea-96d6-edbf79337cb5.png)
