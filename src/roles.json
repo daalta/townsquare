@@ -1388,5 +1388,320 @@
     "name": "Leviathan",
     "team": "demon",
     "ability": "All players know you are in play. After 5 days, evil wins. If more than 1 good player is executed, evil wins."
+  },
+  {
+    "id": "washerwoman",
+    "name": "Washerwoman",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 15,
+    "firstNightReminder": ":eye: Show the character token of a Townsfolk in play. Point to two players, one of which is that character. :eye-slash:",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Townsfolk",
+      "Decoy"
+    ],
+    "setup": false,
+    "ability": "You start knowing 1 of 2 players is a particular Townsfolk."
+  },
+  {
+    "id": "librarian",
+    "name": "Librarian",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 16,
+    "firstNightReminder": ":eye: Show the character token of a Outsider in play. Point to two players, one of which is that character. :eye-slash:",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Outsider",
+      "Decoy"
+    ],
+    "setup": false,
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play)"
+  },
+  {
+    "id": "investigator",
+    "name": "Investigator",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 17,
+    "firstNightReminder": ":eye: Show the character token of a Minion in play. Point to two players, one of which is that character. :eye-slash:",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Minion",
+      "Decoy"
+    ],
+    "setup": false,
+    "ability": "You start knowing 1 of 2 players is a particular Minion."
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 18,
+    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players. :eye-slash:",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "You start knowing how many pairs of evil players there are."
+  },
+  {
+    "id": "empath",
+    "name": "Empath",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 19,
+    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath. :eye-slash:",
+    "otherNight": 37,
+    "otherNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil neighbours. :eye-slash:",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
+  },
+  {
+    "id": "fortuneteller",
+    "name": "Fortune Teller",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 20,
+    "firstNightReminder": ":eye: The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. :eye-slash:",
+    "otherNight": 38,
+    "otherNightReminder": ":eye: The Fortune Teller points to two players. Show the head signal (nod “yes”, shake “no”) for whether one of those players is the Demon. :eye-slash:",
+    "reminders": [
+      "Decoy"
+    ],
+    "setup": false,
+    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is 1 good player that registers falsely to you."
+  },
+  {
+    "id": "undertaker",
+    "name": "Undertaker",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 40,
+    "otherNightReminder": ":question-circle: If a player was executed today: :eye: Show that player’s character token. :eye-slash:",
+    "reminders": [
+      "Executed"
+    ],
+    "setup": false,
+    "ability": "Each night*, you learn which character died by execution today."
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 8,
+    "otherNightReminder": "The previously protected player is no longer protected. :plus-circle: :eye: The Monk points to a player not themself. :eye-slash: Mark that player “Protected”. :plus-circle:",
+    "reminders": [
+      "Protected"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+  },
+  {
+    "id": "ravenkeeper",
+    "name": "Ravenkeeper",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 35,
+    "otherNightReminder": ":question-circle: If the Ravenkeeper died tonight: :eye: The Ravenkeeper points to a player. Show that player’s character token. :eye-slash:",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die at night, you are woken to choose a player: you learn their character."
+  },
+  {
+    "id": "mayor",
+    "name": "Mayor",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "If only 3 players live and no execution occurs, your team wins. If you die at night, another player might die instead."
+  },
+  {
+    "id": "slayer",
+    "name": "Slayer",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Used"
+    ],
+    "setup": false,
+    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "You are safe from the Demon."
+  },
+  {
+    "id": "virgin",
+    "name": "Virgin",
+    "edition": "tbger",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Used"
+    ],
+    "setup": false,
+    "ability": "The first time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
+  },
+  {
+    "id": "butler",
+    "name": "Butler",
+    "edition": "tbger",
+    "team": "outsider",
+    "firstNight": 21,
+    "firstNightReminder": ":eye: The Butler points to a player. :eye-slash: Mark that player as “Master”. :plus-circle:",
+    "otherNight": 39,
+    "otherNightReminder": ":eye: The Butler points to a player. :eye-slash: Mark that player as “Master”. :plus-circle:",
+    "reminders": [
+      "Master"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
+  },
+  {
+    "id": "drunk",
+    "name": "Drunk",
+    "edition": "tbger",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": true,
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk, but your ability malfunctions."
+  },
+  {
+    "id": "recluse",
+    "name": "Recluse",
+    "edition": "tbger",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "You might register as evil and as a Minion or Demon, even if dead."
+  },
+  {
+    "id": "saint",
+    "name": "Saint",
+    "edition": "tbger",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die by execution, your team loses."
+  },
+  {
+    "id": "baron",
+    "name": "Baron",
+    "edition": "tbger",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "There are extra Outsiders in play. [+2 Outsiders]"
+  },
+  {
+    "id": "poisoner",
+    "name": "Poisoner",
+    "edition": "tbger",
+    "team": "minion",
+    "firstNight": 4,
+    "firstNightReminder": ":eye: The Poisoner points to a player. :eye-slash: That player is poisoned. :plus-circle:",
+    "otherNight": 3,
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. :plus-circle: :eye: The Poisoner points to a player. :eye-slash: That player is poisoned. :plus-circle:",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player: their ability malfunctions tonight and tomorrow day."
+  },
+  {
+    "id": "spy",
+    "name": "Spy",
+    "edition": "tbger",
+    "team": "minion",
+    "firstNight": 26,
+    "firstNightReminder": ":eye: Show the Grimoire to the Spy for as long as they need. :eye-slash:",
+    "otherNight": 47,
+    "otherNightReminder": ":eye: Show the Grimoire to the Spy for as long as they need. :eye-slash:",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, you see the Grimoire. You might register as good and as a Townsfolk or Outsider, even if dead."
+  },
+  {
+    "id": "scarletwoman",
+    "name": "Scarlet Woman",
+    "edition": "tbger",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 13,
+    "otherNightReminder": ":question-circle: If the Scarlet Woman became the Demon today: :eye: Show the “You are” card, then the demon token. :eye-slash:",
+    "reminders": [
+      "Demon"
+    ],
+    "setup": false,
+    "ability": "If there are 5 or more players alive (Travelers don't count) and the Demon dies, you become the Demon."
+  },
+  {
+    "id": "imp",
+    "name": "Imp",
+    "edition": "tbger",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 18,
+    "otherNightReminder": ":eye: The Imp points to a player. :eye-slash: That player dies. :plus-circle: If the Imp chose themself: • Replace the character of 1 alive minion with a spare Imp token. :plus-circle: • :eye: Wake the new Imp. Show the “You are” card, then the Imp token. :eye-slash:",
+    "reminders": [
+      "Die"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
   }
 ]
