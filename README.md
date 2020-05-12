@@ -1,4 +1,4 @@
-This is a fork of https://github.com/bra1n/townsquare . Maybe there's something I can adjust, perhaps a german translation.
+This is a fork of https://github.com/bra1n/townsquare . Maybe there's something I can adjust, perhaps a German translation.
 
 # Blood on the Clocktower Town Square
 
